@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse'21 | DAIICT</title>
+    <link rel="icon" href="images/png/Synapse_logo.png">
+
+
+    <!-- Custom classes -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/m_style.css">
+    <link rel="stylesheet" href="css/t_style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <!-- Google Maps -->
+
+    <!-- Mapbox -->
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <div id="logo-scroll" class="logo m-2">
+        <img id="synapselogo" src="images/png/Synapse_Logo_Top.png" alt="logo">
+    </div>
+
+    <!-- Menu -->
+    <div id="menu-container">
+        <div id="menu">
+            <a id="menu-close-btn" class="menu">
+                <img src="images/png/Menu_cancel.png" alt="">
+            </a>
+            <div class="menu-box">
+                <div class="menu-items">
+                    <a class="menu-item">Home</a>
+                    <a class="menu-item">Registration</a>
+                    <a class="menu-item">Pronites</a>
+                    <a class="menu-item">Events</a>
+                    <a class="menu-item">Schedule</a>
+                    <a class="menu-item">Sponsors</a>
+                    <a class="menu-item">Gallery</a>
+                    <a class="menu-item">Synapse Team</a>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="menu-events">
+                    <p>Upcoming events</p>
+                    <div class="event-items">
+                        <a>Hackathon</a>
+                        <a>Youth Run</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src='images/png/instagram_events.png' alt="">
+                        </a>
+                        <a href="#">
+                            <img src='images/png/youtube_events.png' alt="">
+                        </a>
+                        <a href="#">
+                            <img src='images/png/facebook_events.png' alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="sub-header">
+            <div class="illustration"></div>
+            <div class="header-content">
+                <div class="navbar m-2">
+                    <img src="images/png/New 2.png" alt="">
+                    <div class="nav">
+                        <a id="contact-us-btn" href="#" class="contact-us">Contact Us</a>
+                        <a id="menu-btn" class="menu">
+                            <img src="images/png/Menu.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="mountains">
+                    <img src="images/png/Group_L_M.png" alt="">
+                    <!-- <img src="images/png/Group3.png" alt="">
+                    <img class="large-logo" src="images/png/Mask Group.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-header-2">
+            <img src="images/png/roads.png" alt="">
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-us">
+        <h1>About Us</h1>
+
+        <div class="about-us-text">
+            <p>Dhirubhai Ambani Institute of Information and Technology (DA-IICT), known for its research and
+                development, has emerged as the torch bearer among the premier technological institution of Gujarat over
+                the past 17 years.</p>
+
+            <p>Synapse is a celebration - a celebration of culture, technology and life. It is about realising the
+                underlying inherent junction of the three in an electrifying atmosphere. One of the most prominent
+                college fests of Gujarat, it is a spectacle of our talent, aspirations, creativity and vision. Come
+                2020, we promise a bigger and better Synapse.</p>
+
+            <p>Freedom of expresssion is given the most importance within these walls, and that is precisely what
+                Synapse stands for. Synapse is a medium through which the youth can express thier views; be it through
+                art, culture, technological skills, knowledge or entertainment. It is a time when the student community
+                comes forward to show its intensity, passion and enthusiasm.</p>
+
+        </div>
+
+        <div class="vid">
+            <video height="auto" preload controls poster="images/png/Thumbnail.png">
+                <source src="Videos/Aftermovie.mp4" type=video/mp4>
+            </video>
+        </div>
+
+        <div id="about-us-stats" class="about-us-stats">
+            <div class="stat">
+                <h1 id="footfall-stats"></h1>
+                <p>Footfall</p>
+            </div>
+            <div class="stat">
+                <h1 id="event-stats">30+</h1>
+                <p>Events</p>
+            </div>
+            <div class="stat">
+                <h1 id="college-stats">15+</h1>
+                <p>Colleges</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Events Section -->
+    <div class="events">
+        <img src="images/png/Arrow left.png" alt="" class="arrow" id="arrow-left">
+
+        <div id="slider" class="slider">
+            <div class="slick-item">
+                <div class="slide" id="slider-1">
+                    <img class="event-img" src="images/png/slider1.png" alt="">
+
+                    <div class="event-details">
+                        <h1>EVENTS</h1>
+                        <p>From literary to quizzing to dance and drama, Synapse is the stage where you can showcase
+                            your
+                            talent and get recognized. Synapse events witness some of the best talent in the country and
+                            are
+                            judged by the likes of Malhar Thakar, Leonel Leonel Sequeira, Rishabh Sharma, Manasi Parekh,
+                            Nidhi Kumar and many other eminent personalities.</p>
+                        <a href="#">view more <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="slide" id="slider-2">
+                    <img class="event-img" src="images/png/slider2.png" alt="">
+
+                    <div class="event-details">
+                        <h1>PRONITES</h1>
+                        <p>Surrender to the music of some of the most incredible artists in the industry! Synapse
+                            Pronites
+                            have
+                            witnessed the likes of Amit Trivedi, Nucleya, Shalmali Kholgade, Sonu Nigam, Sachin Jigar,
+                            KK,
+                            Biswa
+                            Kalyan Rath, Zakir Khan, Lost Stories and many other noteworthy artists. They promise you a
+                            night
+                            worth remembering!</p>
+                        <a href="#">view more <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slick-item">
+                <div class="slide" id="slider-3">
+                    <img class="event-img" src="images/png/YouthRun_Slider.png" alt="">
+
+                    <div class="event-details">
+                        <h1>PREEVENTS</h1>
+                        <p>From literary to quizzing to dance and drama, Synapse is the stage where you can showcase
+                            your talent and get recognized. Synapse events witness some of the best talent in the
+                            country and are judged by the likes of <strong>Malhar Thakar, Leonel Leonel Sequeira,
+                                Rishabh Sharma, Manasi Parekh, Nidhi Kumar</strong> and many other eminent
+                            personalities.</p>
+                        <a href="#">view more <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <img src="images/png/Arrow right.png" alt="" class="arrow" id="arrow-right">
+    </div>
+
+    <!-- Contact Us Section -->
+    <div id="contact-us-section" class="contact-us-section">
+
+        <!-- Contact us desktop view -->
+        <div id="contact-us-desktop">
+            <div class="social-icons">
+                <a href="">
+                    <img src="images/png/Instagram_logo.png" alt="" class="social-icon">
+                </a>
+                <a href="">
+                    <img src="images/png/Youtube-logo.png" alt="" class="social-icon">
+                </a>
+                <a href="">
+                    <img src="images/png/Facebook-logo.png" alt="" class="social-icon">
+                </a>
+
+            </div>
+            <div class="social-box">
+            </div>
+
+            <div class="contact-us-1">
+                <div class="c-1">
+                    <h1>Contact Us</h1>
+                    <p class="email">synapse.thefest@gmail.com</p>
+                    <a href="#">Know more <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="c-2">
+                    <div id="map-1"></div>
+                </div>
+            </div>
+            <div class="contact-us-2">
+                <img src="images/png/Buildings-illustration.png" alt="">
+            </div>
+        </div>
+
+        <!-- Contact us mobile view -->
+        <div id="contact-us-mobile">
+
+            <div class="c-m-1">
+                <h1>Contact Us</h1>
+                <p class="email">synapse.thefest@gmail.com</p>
+                <a href="#">Know more <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="social-box-m">
+                <div class="social-icons-m">
+                    <a href="">
+                        <img src="images/png/Instagram_logo.png" alt="" class="social-icon-m">
+                    </a>
+                    <a href="">
+                        <img src="images/png/Youtube-logo.png" alt="" class="social-icon-m">
+                    </a>
+                    <a href="">
+                        <img src="images/png/Facebook-logo.png" alt="" class="social-icon-m">
+                    </a>
+
+                </div>
+                <div class="map-container">
+                    <div id="map-2"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/script.js">
+    </script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidmlyYWw5OTlnIiwiYSI6ImNqeWloejNuYTA5c3IzY3FpbTRsMDNhNzUifQ.kC5CsBwOOiw7nvzyppoZkQ';
+        var map = new mapboxgl.Map({
+            container: 'map-1',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [72.628855, 23.188797],
+            zoom: 15
+        });
+
+        var map_mob = new mapboxgl.Map({
+            container: 'map-2',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [72.628855, 23.188797],
+            zoom: 15
+        });
+
+        var marker = new mapboxgl.Marker({
+            color: "#000",
+        }).setLngLat([72.628855, 23.188797])
+
+        var marker2 = new mapboxgl.Marker({
+            color: "#000",
+        }).setLngLat([72.628855, 23.188797])
+            
+        marker.addTo(map); 
+        marker2.addTo(map_mob);
+    </script>
+</body>
+
+
+</html>
