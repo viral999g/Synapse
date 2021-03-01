@@ -1,0 +1,341 @@
+:root{
+  --primary-color: #000;
+  --light-color: #fff;
+}
+
+
+@font-face{
+  font-family:"qanelas";
+  src:url("/fonts/Qanelas/Qanelas-Light.otf") format("woff");
+  font-weight: 400;
+}
+
+@font-face{
+  font-family:"bebas";
+  src:url("/fonts/BebasNeue/OTF/BebasNeue-Bold.otf") format("woff");
+  font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+background: transparent;
+border: none;
+}
+
+* {
+-ms-overflow-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  z-index: 1;
+}
+
+/* ------Home Page------ */
+
+/* Header Section */
+
+.header{
+  height: 100%;
+}
+
+.sub-header{
+  /* background: radial-gradient(50.23% 75.35% at 49.29% 61.85%, rgba(55, 4, 147, 0.324) 0%, rgba(51, 1, 136, 0.296) 6.77%, rgba(44, 3, 108, 0.4) 11.46%, rgba(58, 0, 139, 0.4) 19.79%, rgba(50, 0, 110, 0.4) 25.52%, rgba(44, 0, 89, 0.4) 32.81%, rgba(40, 0, 76, 0.4) 46.35%, rgba(39, 0, 72, 0.4) 55.73%, rgba(0, 0, 0, 0.4) 100%); */
+
+  width: auto;
+  /* height: 80vh; */
+  position: relative;
+  opacity: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+}
+
+/* Navbar */
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.nav > *{
+  padding : 0 2rem;
+}
+
+.contact-us{
+  display: flex;
+  height: 100%;
+  border: 1px solid #fff;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 0px 0px #fff;
+  align-items: center;
+}
+
+
+.menu > img{
+  -webkit-filter: drop-shadow(5px 5px 20px #0E0869);
+  filter: drop-shadow(5px 5px 20px #0E0869);
+}
+
+.header-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.illustration{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+
+  /* background: url('/images/png/Illustration.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+  background: radial-gradient(50.23% 75.35% at 49.29% 61.85%, rgba(55, 4, 147, 0.324) 0%, rgba(51, 1, 136, 0.296) 6.77%, rgba(44, 3, 108, 0.4) 11.46%, rgba(58, 0, 139, 0.4) 19.79%, rgba(50, 0, 110, 0.4) 25.52%, rgba(44, 0, 89, 0.4) 32.81%, rgba(40, 0, 76, 0.4) 46.35%, rgba(39, 0, 72, 0.4) 55.73%, rgba(0, 0, 0, 0.4) 100%);
+  z-index: -1;
+  opacity: 1;
+}
+
+.mountains{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+
+.mountains > img:first-child{
+  margin-top: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.large-logo{
+  position: absolute;
+  bottom: -10%;
+  z-index: -1;
+  min-width: 180px;
+  height: 90%;
+}
+
+.sub-header-2{
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.sub-header-2 > img{
+  width: 100%;
+}
+
+.logo{
+  position: fixed;
+  z-index: 9999;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+/* About Us */
+
+.about-us{
+  margin: 3vw;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  row-gap: 1.5rem';
+}
+
+.about-us > h1{
+  margin-bottom: 1vw;
+  font-size: 7vw;
+  font-family: "bebas";
+  background: linear-gradient(180deg, #00FFFF 0%, #0198FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.about-us > .about-us-text > p{
+  font-family: "qanelas";
+  font-size: 1.5vw;
+  padding: 0.5rem 0;;
+}
+
+.about-us > .img{
+  width: auto;
+  border: 5px solid #0D087A;
+  padding: 8px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.about-us > .img > img{
+  display: block;
+  outline: 0px solid transparent;
+  width: 100%;
+}
+
+.about-us > *:first-child{
+  grid-column: 1 / span 2;
+}
+
+.about-us-stats{
+  margin-top: 3vw;
+  width: 100%;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-stats > .stat{
+  padding: 1.2rem;
+  text-align: center;
+  flex-basis: 350px;
+}
+
+.about-us-stats > .stat > h1{
+  font-size: 6vw;
+  font-family: "bebas";
+  background:linear-gradient(180deg, #FF03C2 0%, #BE00FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.about-us-stats > .stat > p{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Events */
+
+.events{
+  margin: 3vh auto;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.events > div{
+  flex-basis: 100%;
+}
+
+.events > .slider{
+  margin: 0px 3vw;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #FB4350, #FA773F);
+
+}
+
+.slide{
+  /* flex: 1; */
+  display: grid;
+  position: relative;
+  grid-template-columns: 55% 45%;
+  max-height: 600px;
+  flex: 0 0 100%;
+  padding: 12px;
+}
+
+.slide > img{
+  display: inline-block;
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+  flex-basis: 55%;
+}
+
+.slide > .event-details{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #00FFFF;
+  height: 100%;
+}
+
+.event-details > h1{
+  font-family: "bebas";
+  background: linear-gradient(178.03deg, #FC255A 1.66%, #FA7E3D 50.53%);
+  font-weight: 400;
+  font-size: 3.5vw;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.event-details > p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  line-height: 1.5rem;
+  margin: 1.1rem 0px;
+}
+
+.event-details > a{
+  width: fit-content;
+  font-family: 'qanelas', sans-serif;
+  font-size: 1.4vw;
+  line-height: 1.5rem;
+  /* margin-top: 0.5rem; */
+  padding: 0.7rem;
+  justify-self: end;
+  margin-top: auto;
+
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #AF85BC 0%, #FC1F5C 0.01%, #F57D36 100%);
+}
+
+.event-details > a > i{
+  margin-left: 0.4rem;
+}
+
+.sli{
+  margin: 0 0.1rem;
+}
