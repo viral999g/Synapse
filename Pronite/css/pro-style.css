@@ -158,10 +158,10 @@ h6.pronite-text
 {
     font-family: Poppins; 
     position:relative;
-    font-size: 1.4vw;
+    font-size: 2vw;
     font-weight: normal;
     text-align: center;
- margin-top:4%;
+ margin-top:8%;
 
 }
 .arrow > img
@@ -173,7 +173,7 @@ h6.pronite-text
   max-width:100%;
   height: auto;
 
-  margin-top:6%;   
+  margin-top:4%;   
    
 }
 .arrow:hover{
@@ -365,7 +365,7 @@ margin:-5% 0% 0% 38%;
   h6.pronite-text
   {
       margin-top:10%;
-      font-size: 1.45em;}
+      font-size: 1.2em;}
  .arrow > img
       {
           margin-top:20%;
@@ -466,7 +466,9 @@ h1.fill
   h6.pronite-text
   {
       margin-top:15%;
-      font-size: 5.3vw;}
+      margin-left: 3%;
+      margin-right:4%;
+      font-size: 5vw;}
  .arrow > img
       {
           margin-top:20%;
