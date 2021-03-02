@@ -1,0 +1,993 @@
+
+.contact-us{
+  display: flex;
+    height: 100%;
+    border: 1px solid #fff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 0px 0px #fff;
+    align-items: center;
+}
+
+.logo{
+left: 1.1%;
+right: 95.53%;
+top: 1.05%;
+bottom: 94.44%;
+height:47px;
+width:46px;
+background-image: url(../images/png/logo.png);
+
+}
+  .img1{
+    position: absolute;
+    width: 1573px;
+    height: 1030px;
+    left: -7px;
+    top: -15px;
+  /*background-repeat: repeat;*/
+  /*background-size: cover;*/
+  z-index: -20;
+  /*display: none;*/
+
+}
+/*.img2{
+  position: absolute;
+width: 100%;
+height: 406px;
+left: -8px;
+top: 911px;
+background-image: url(../images/png/Group11.png);
+background-repeat:round;
+padding-right:0;
+margin-right: 0;
+align-items: center;
+}*/
+.container{
+  position: absolute;
+width: 1218.24px;
+height: 464px;
+/*left: 186px;
+top: 154px;*/
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background-color: #0C1011;
+border: 10px solid #33ccff;
+border-image: linear-gradient(to right, #80bfff, #33ccff,#0073e6,#80bfff, #33ccff);
+
+border-image-slice: 1;
+display:flex;
+justify-content: center;
+
+
+}
+
+
+
+  .content{
+    position: absolute;
+  width: 389px;
+  height: 167px;
+  left: 131px;
+  top: 10px;
+
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 78px;
+  line-height: 118px;
+  background: linear-gradient(to right, #E38CF2,#407BF0);
+              -webkit-text-fill-color: transparent;
+              -webkit-background-clip: text;
+  /*  display:none;*/
+  }
+  .wrapper{
+  }
+  .event1{
+    position: absolute;
+    width: 262px;
+    height: 48px;
+    left: 257px;
+    border: 2px solid #FAF1F5;
+    box-sizing: border-box;
+    text-align:center;
+    left: 171px;
+    top: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #7513A8;
+    /*display:none;*/
+  }
+  .event1:hover:after{
+    font:red;
+    margin-left: 350px;
+    margin-top:-150px;
+      color:cyan;
+    float:left;
+   content:attr(data-text);
+    height:115px;
+    width:530px;
+    padding:8px;
+    transition:0.5s;
+    overflow: visible;
+    text-align: justify;
+    cursor:pointer;
+
+  /*  display:none;*/
+
+  }
+  .event2{
+    position: absolute;
+    width: 262px;
+    height: 48px;
+    left: 257px;
+    border: 2px solid #FAF1F5;
+    box-sizing: border-box;
+    text-align:center;
+    left: 171px;
+    top: 230px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #7513A8;
+    /*display:none;*/
+  }
+
+  .event2:hover:after{
+    font:red;
+    margin-left: 350px;
+    margin-top:-230px;
+      color:cyan;
+    float:left;
+   content:attr(data-text);
+    height:115px;
+    width:530px;
+    padding:8px;
+    transition:0.5s;
+    overflow: visible;
+    text-align: justify;
+    cursor:pointer;
+
+  /*  display:none;*/
+
+  }
+  .event3{
+    position: absolute;
+    width: 262px;
+    height: 48px;
+    left: 257px;
+    border: 2px solid #FAF1F5;
+    box-sizing: border-box;
+    text-align:center;
+    left: 171px;
+    top: 310px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #7513A8;
+    /*display:none;*/
+  }
+.event3:hover:after{
+  font:cyan;
+  margin-left: 350px;
+  margin-top:-310px;
+    color:cyan;
+  float:left;
+ content:attr(data-text);
+  height:115px;
+  width:530px;
+  padding:8px;
+  transition:0.5s;
+  overflow: visible;
+  text-align: justify;
+  cursor:pointer;
+
+  /*display:none;*/
+
+}
+.register{
+  position: absolute;
+  width: 262px;
+  height: 48px;
+  left: 257px;
+  border: 2px solid #FAF1F5;
+  box-sizing: border-box;
+  text-align:center;
+  left: 671px;
+  top: 350px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  background-color:red;
+
+  /*display:none;*/
+}
+
+    #footer-margin{
+      margin-top:900px;
+    }
+
+
+img { max-width: 100%; height: auto; }
+
+@media only screen and (min-width:100px) and (max-width:400px)
+{
+  .contact-us{
+    display: none;
+  }
+  .img1{
+    background-image: url(../images/png/register-mobile.png);
+    background-size: contain;
+    width:100%;
+    height: 130%;
+    display: block;
+    background-repeat: round;
+
+    }
+    .img2{
+      background-image: url(../images/png/contact-mobile.png);
+      background-size: contain;
+      width:100%;
+      height:120%;
+      background-repeat: no-repeat;
+    }
+    .content{
+      display:block;
+      font-size: 50px;
+      line-height: 100px;
+      margin-left:-80px;
+      margin-top: -10px;
+
+    }
+    .wrapper,.eventcontent{
+    /*  display:block;
+      width:100%;*/
+    }
+    .register{
+      position: absolute;
+      margin-top:90px;
+      /*margin-left:-600px;*/
+      left:15%;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event1{
+      margin-top: -30px;
+    /*  margin-left:-100px;*/
+    left:15%;
+      display:block;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+    }
+
+    .event1:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:10px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+    }
+
+    .event2{
+      display:block;
+      margin-top: 300px;
+    /*  margin-left:-100px;*/
+    left:15%;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event2:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-400px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+
+    }
+
+    .event3{
+      display:block;
+      margin-top:300px;
+    /*  margin-left:-100px;*/
+    left:15%;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event3:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-480px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+    }
+
+    body
+    {
+      display:block;
+      background-color:#0B083D;
+
+    }
+    .container{
+
+     width:300px;
+     height:720px;
+     top:80%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
+    }
+
+
+}
+
+
+@media only screen and (min-width:400px) and (max-width:600px)
+{
+  .contact-us{
+    display:none;
+  }
+  .img1{
+    background-image: url(../images/png/register-mobile.png);
+    display: block;
+    background-size: contain;
+    width:100%;
+    height: 130%;
+
+    }
+    .img2{
+      background-image: url(../images/png/contact-mobile.png);
+      background-size: contain;
+      width:100%;
+      height:140%;
+      background-repeat: no-repeat;
+    }
+    .content{
+      display:block;
+      font-size: 50px;
+      line-height: 100px;
+      margin-left:-60px;
+      margin-top: -10px;
+
+    }
+    .wrapper,.eventcontent{
+    /*  display:block;
+      width:100%;*/
+    }
+    .register{
+      position: absolute;
+      margin-top:130px;
+      margin-left:-600px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event1{
+      margin-top: -30px;
+      margin-left:-100px;
+      display:block;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+    }
+
+    .event1:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:30px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+    }
+
+    .event2{
+      display:block;
+      margin-top: 320px;
+      margin-left:-100px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event2:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-400px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+
+    }
+
+    .event3{
+      display:block;
+      margin-top:320px;
+      /*margin-left:-100px;*/
+      left:15%;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event3:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-480px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+      cursor:pointer;
+
+    }
+
+    body
+    {
+      display:block;
+      height:200%;
+      background-color:#0B083D;
+    }
+  /*  .container{
+
+      display:block;
+     margin-top:10px;
+     margin-left: -24vh;
+     width:390px;
+     height:720px;
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
+    }*/
+    .container{
+
+     width:350px;
+     height:720px;
+     top:70%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
+    }
+    #footer-margin{
+      margin-top:850px;
+    }
+
+
+}
+@media only screen and (min-width:600px) and (max-width:700px)
+{
+  .contact-us{
+    display: none;
+  }
+
+  .img1{
+    background-image: url(../images/png/register-mobile.png);
+    background-size: contain;
+    width:100%;
+    height: 200%;
+    display: block;
+    background-repeat: round;
+
+    }
+    .img2{
+      background-image: url(../images/png/contact-mobile.png);
+      background-size: contain;
+      width:100%;
+      height:auto; /*1700*/
+      background-repeat: no-repeat;
+    }
+
+    .content{
+      display:block;
+      font-size: 50px;
+      line-height: 100px;
+      margin-left:-60px;
+      margin-top: -10px;
+
+    }
+
+    .register{
+      position: absolute;
+      margin-top:130px;
+      margin-left:-600px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event1{
+      margin-top: -30px;
+      margin-left:-100px;
+      display:block;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+    }
+
+    .event1:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:20px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+    }
+
+    .event2{
+      display:block;
+      margin-top: 320px;
+      margin-left:-100px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event2:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-400px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+
+
+    }
+
+    .event3{
+      display:block;
+      margin-top:320px;
+    /*  margin-left:-100px;*/
+    left:15%;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event3:hover:after{
+      display: block;
+      margin-left: -50px;
+      margin-top:-480px;
+      width:250px;
+      height:300px;
+      line-height: 18px;
+      text-align: justify;
+
+    }
+
+
+
+    /*.container{
+
+     margin-top:10px;
+     margin-left:-60px;
+     width:390px;
+     height:720px;
+     border:none;
+     background-color: black;
+     background-size: cover;
+     display:flex;
+     justify-content: center;
+
+
+    }*/
+    body{
+      background-color:#0B083D;
+      height: auto;
+    }
+    .container{
+
+     width:410px;
+     height:720px;
+     top:60%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
+    }
+
+    }
+
+
+@media only screen and (min-width:900px) and (max-width:1200px)
+{
+  /*.img1{
+    position: absolute;
+    background-image: url(images/png/register-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    }*/
+    .img2{
+      position: absolute;
+
+      background-image: url(../images/png/Group11.png);
+      background-size: contain;
+      width:100%;
+      height:100%;
+      top:700px;
+      background-repeat: no-repeat;
+    }
+    .content{
+      display:block;
+      font-size: 50px;
+      line-height: 100px;
+      margin-left:-70px;
+      margin-top: -10px;
+
+    }
+    .wrapper,.eventcontent{
+      display:block;
+      width:100%;
+    }
+    .event1{
+      margin-top: -30px;
+      margin-left:-70px;
+      display:block;
+      width: 180px;
+      height: 40px;
+      line-height: normal;
+
+    }
+
+    .event1:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:0px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+    }
+
+    .event2{
+      display:block;
+      margin-top: -50px;
+      margin-left:-70px;
+      width: 180px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event2:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:-60px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+
+    }
+
+    .event3{
+      display:block;
+      margin-top:-70px;
+      margin-left:-70px;
+      width: 180px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event3:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:-120px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+
+    }
+    .register{
+      position: absolute;
+      margin-top:30px;
+      margin-left:-200px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+    }
+    body
+    {
+      background-image: url(../images/png/register-mobile.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      overflow: scroll;
+      height: 200%;
+      background-color: #0B083D
+
+    }
+  /*  .container{
+
+     display:block;
+     margin-top:10px;
+     margin-left:-60px;
+     width:820px;
+     height:520px;
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+    }*/
+    .container{
+
+     width:840px;
+     height:620px;
+     top:55%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     background-color: black;
+     background-size: cover;
+     overflow: scroll;
+     border: none;
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:1200px) and (max-width:1300px)
+{
+  .img1{
+    /*position: absolute;
+    background-image: url(images/png/register-mobile.png);
+    background-size: contain;
+    width:750px;
+    background-repeat: no-repeat;*/
+
+    }
+    .img2{
+      position: absolute;
+
+      background-image: url(../images/png/Group11.png);
+      background-size: contain;
+      width:100%;
+      height:100%;
+      top:700px;
+      background-repeat: no-repeat;
+    }
+    .content{
+      display:block;
+      font-size: 50px;
+      line-height: 100px;
+      margin-left:-70px;
+      margin-top: -10px;
+
+    }
+    .wrapper,.eventcontent{
+      display:block;
+      width:100%;
+    }
+    .event1{
+      margin-top: -30px;
+      margin-left:-70px;
+      display:block;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+    }
+
+    .event1:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:0px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+    }
+
+    .event2{
+      display:block;
+      margin-top: 10px;
+      margin-left:-70px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event2:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:-120px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+
+    }
+
+    .event3{
+      display:block;
+      margin-top:50px;
+      margin-left:-70px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+
+
+    }
+    .event3:hover:after{
+      display: block;
+      margin-left: 200px;
+      margin-top:-240px;
+      width:480px;
+      height:300px;
+      line-height: 18px;
+
+
+    }
+    .register{
+      position: absolute;
+      margin-top:70px;
+      margin-left:-200px;
+      width: 200px;
+      height: 40px;
+      line-height: normal;
+    }
+    body
+    {
+      background-image: url(../images/png/register-mobile.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 300%;
+      overflow: scroll;
+      background-color: #0B083D
+    }
+  /*  .container{
+
+     display:block;
+     margin-top:10px;
+     margin-left:-60px;
+     width:820px;
+     height:520px;
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+    }*/
+    .container{
+
+     width:850px;
+     height:720px;
+     top:65%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     background-color: black;
+     background-size: cover;
+     border: none;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1060px)
+{
+  background-color: blue;
+
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) { body {font-size:1px;} }
+@media (min-width:960px) { body {font-size:1.2px;} }
+@media (min-width:1100px) { body {font-size:1.5px;} }*/
