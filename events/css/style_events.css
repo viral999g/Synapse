@@ -656,7 +656,7 @@ li {
     }
     img.arrow {
         top: 70vh;
-        height: 13fvh;
+        height: 13vh;
         width: 25vw;
         left: 39vw;
     }
@@ -775,6 +775,7 @@ li {
     font-family: 'qanelas-medium';
     font-weight: 700;
     color: #fff;
+    text-decoration: none;
 }
 
 .line {
@@ -792,6 +793,10 @@ li {
 .event-items {
     justify-content: start;
     margin-top: 0.5rem;
+}
+
+.event-items>a {
+    text-decoration: none;
 }
 
 .event-items>* {
