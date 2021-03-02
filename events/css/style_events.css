@@ -251,6 +251,10 @@ h1.outline3 {
     font-family: 'Poppins', sans-serif;
 }
 
+li {
+    font-size: 1.5vw;
+}
+
 a.text1 {
     color: #8B55F3;
 }
@@ -652,7 +656,7 @@ li {
     }
     img.arrow {
         top: 70vh;
-        height: 15vh;
+        height: 13fvh;
         width: 25vw;
         left: 39vw;
     }
