@@ -7,6 +7,43 @@ var colleges = $('#college-stats');
 var duration = 2500;
 var easing_type = 'linear';
 
+$(window).on('resize scroll', function () {
+    var top_of_element = $("#about-us-stats").offset().top;
+    var bottom_of_element = $("#about-us-stats").offset().top + $("#about-us-stats").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+
+    if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+        increment();
+        $(window).off('resize scroll');
+    } else {
+    }
+
+    if (Modernizr.mq('(min-width: 767px)')){
+        $('#slider').slick({
+            slidesToShow: 1,
+            useCSS: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            draggable: true,
+            speed: 1000,
+            arrows: false,
+            pauseOnHover: true,
+        });
+        
+        $('#arrow-left').click(function (e) {
+            e.preventDefault();
+            $('#slider').slick('slickPrev');
+        })
+        
+        $('#arrow-right').click(function (e) {
+            e.preventDefault();
+            $('#slider').slick('slickNext');
+        })
+    
+    }
+})
+
 function increment() {
 
     $({ someValue: 0 }).animate({ someValue: 25 }, {
