@@ -114,26 +114,26 @@ h1.outline1,h1.outline2,h1.outline3,h1.outline4{
 h1.outline1
 {
 position: absolute;
-margin:-3.9% 0% 0% -2%;
+margin:-4.3% 0% 0% -2%;
 
 }
 h1.outline2
 {
 position: absolute;
-margin:-3.9% 0% 0% 19%;
+margin:-4.3% 0% 0% 19%;
 
 }
 h1.outline3
 {
 position: absolute;
-margin:-3.9% 0% 0% 61.5%;
+margin:-4.3% 0% 0% 61.5%;
 
 
 }
 h1.outline4
 {
 position: absolute;
-margin:-3.9% 0% 0% 82.5%;
+margin:-4.3% 0% 0% 82.5%;
 width: 17.5%;
 white-space: nowrap;
 overflow: hidden;
@@ -151,7 +151,7 @@ h1.fill
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    margin:-3.9% 0% 0% 40.5%;
+    margin:-4.3% 0% 0% 40.5%;
 
 }
 h6.pronite-text
@@ -327,7 +327,7 @@ h6.text4_desk
 @media(max-width:768px)
 {
  .menu{
-        left:90%
+        left:90%;
     }
  .contact-us
 {
@@ -447,10 +447,10 @@ h1.outline2,h1.outline3
     font-size:15vw;
 }
 h1.outline2{
-    margin:-9% 0% 0% -17%;
+    margin:-10% 0% 0% -17%;
 }
 h1.outline3{
-    margin:-9% 0% 0% 75%;
+    margin:-10% 0% 0% 75%;
 width: 25%;
 white-space: nowrap;
 overflow: hidden;
@@ -461,7 +461,7 @@ h1.fill
 {
 	position: absolute;
     font-size:15vw;
-    margin:-9% 0% 0% 29%;
+    margin:-10% 0% 0% 29%;
 }
   h6.pronite-text
   {
