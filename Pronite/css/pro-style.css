@@ -3,12 +3,22 @@
     --light-color: #fff;
 }
 
+@font-face{
+    font-family:"qanelas-medium";
+    src:url("../fonts/Qanelas/Qanelas-Medium.otf") format("woff");
+}
+
+@font-face{
+    font-family:"qanelas-light";
+    src:url("../fonts/Qanelas/Qanelas-Light.otf") format("woff");
+}
 
 @font-face{
     font-family:"bebas";
     src:url("../fonts/BebasNeue/OTF/BebasNeue-Bold.otf") format("woff");
     font-weight: 400;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
@@ -33,7 +43,7 @@ a{
 body{
     background-color: var(--primary-color);
     color: var(--light-color);
-    font-family: "Poppins";
+   /* font-family: "Poppins";*/
    
 }
 html{
