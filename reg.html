@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#but1").hover(function(){
+		 $("#but1").hover(function(){
                 $(".pdesc").html("This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events");
                 $(".contact").show();
                 }, function(){
@@ -48,19 +48,23 @@
             });
             });
             $(document).ready(function(){
-                $("#but1").click(function(){
+			if($(window).width() <=1024 )
+			  $("#but1").click(function(){
                 $(".resp_cont1").slideToggle();
             });
             });
             $(document).ready(function(){
+			if($(window).width() <=1024 )
                 $("#but2").click(function(){
                 $(".resp_cont2").slideToggle();
             });
             });
             $(document).ready(function(){
+			if($(window).width() <=1024 )
                 $("#but3").click(function(){
                 $(".resp_cont3").slideToggle();
             });
+			
             });
     </script>
 </head>
