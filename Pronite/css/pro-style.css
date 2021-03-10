@@ -52,7 +52,7 @@ html{
 
 /* ------------Header------------- */
 .img-set{
-   max-width:100%;
+   width:100%;
     height:auto;
     display:block;
     top:0%;
@@ -61,6 +61,7 @@ html{
 }
 .img-set >img{
     height:42vh;
+    width:100%;
 
 }
 
@@ -134,7 +135,7 @@ h6.pronite-text
     font-size: 2vw;
     font-weight: normal;
     text-align: center;
- margin-top:22%;
+ margin-top:42vh;
 
 }
 .arrow > img
@@ -297,17 +298,13 @@ h6.text4_desk
 }
 
 
-
-
 /*tablet screen*/
 @media(max-width:768px)
 {
- 
-
 
   h6.pronite-text
   {
-      margin-top:36%;
+      margin-top:40vh;
       font-size: 1.1em;}
  .arrow > img
       {
@@ -398,7 +395,7 @@ h1.fill
 }
   h6.pronite-text
   {
-      margin-top:60%;
+      margin-top:40vh;
       margin-left: 3%;
       margin-right:4%;
       font-size: 5vw;}
