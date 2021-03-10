@@ -147,6 +147,14 @@ a {
     }
     #menu-close-btn {
         top: 2vh;
-        right: 3vw
+        right: 3vw;
+    }
+}
+
+@media (max-width:500px) {
+    a#menu-close-btn>img {
+        position: absolute;
+        top: 2%;
+        left: 6vw;
     }
 }

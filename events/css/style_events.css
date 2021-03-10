@@ -457,6 +457,9 @@ li>a {
     .footer-box3 {
         padding-left: 0%;
     }
+    .footer-text>li {
+        font-size: 1em;
+    }
 }
 
 @media(max-width:1024px) {
@@ -627,6 +630,17 @@ li>a {
         left: 3%;
         width: 20px;
         background-image: url(images/png/logo.png);
+    }
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 2%;
+        left: 6vw;
+        width: 100%;
+        transform: translateX(-20%);
+        /* padding-right: 100vw;
+        margin-right: 100vw; */
     }
     /* .main{
     display: grid;
