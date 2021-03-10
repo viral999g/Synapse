@@ -45,13 +45,7 @@ $('#logo-scroll').click(function (e) {
 
 });
 
-$('#contact-us-btn').click(function (e) {
-    e.preventDefault();
-    var body = $("html, body");
-    var contact_us = $("#contact-us-section");
-    body.animate({ scrollTop: contact_us.offset().top - 100 }, 1500, 'swing', function () {
-    });
-});
+
 
 $('#menu-btn').click(function (e) {
     e.preventDefault();
