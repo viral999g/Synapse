@@ -48,9 +48,18 @@ body {
     height: 100%;
 }
 
-.navbar {
+
+/* .navbar {
     display: flex;
     justify-content: flex-end;
+}
+
+.navbar>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18vw;
 }
 
 .contact-us {
@@ -71,15 +80,16 @@ body {
     box-shadow: inset 0px 0px 0px 0px azure;
     align-items: center;
     text-decoration: none;
-}
+} */
 
-.menu {
+
+/* .menu {
     position: absolute;
     left: 94.21%;
     right: 4.39%;
     top: 2%;
     bottom: 98.29%;
-}
+} */
 
 .logo {
     position: absolute;
@@ -809,7 +819,7 @@ li>a {
 
 .event-items>* {
     font-size: 1.8rem;
-    font-family: 'qanelas-medium';
+    font-family: 'qanelas-medium', sans-serif;
     font-weight: 700;
     color: #fff;
     margin-top: 1rem;
