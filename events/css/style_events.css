@@ -136,7 +136,7 @@ h1.fill {
     align: center;
     padding: 0;
     margin: 0;
-    right: 42vw;
+    right: 40vw;
 }
 
 h1.outline0 {
@@ -148,7 +148,7 @@ h1.outline0 {
     align: center;
     padding: 0;
     margin: 0;
-    left: 0vw;
+    left: -5vw;
 }
 
 h1.outline1 {
@@ -160,7 +160,7 @@ h1.outline1 {
     align: center;
     padding: 0;
     margin: 0;
-    right: 0vw;
+    right: -5vw;
 }
 
 h1.outline2 {
@@ -172,7 +172,7 @@ h1.outline2 {
     align: center;
     padding: 0;
     margin: 0;
-    left: 20vw;
+    left: 17vw;
 }
 
 h1.outline3 {
@@ -184,7 +184,7 @@ h1.outline3 {
     align: center;
     padding: 0;
     margin: 0;
-    right: 20vw;
+    right: 17vw;
 }
 
 .event_txt {
@@ -641,13 +641,13 @@ li>a {
         transform: translate(0, -50%);
     }
     h1.outline2 {
-        left: 1vw;
+        left: 0vw;
     }
     h1.outline3 {
-        right: 1vw;
+        right: 0vw;
     }
     h1.fill {
-        right: 37vw;
+        right: 34vw;
     }
     img.part {
         border: 0;
@@ -780,7 +780,7 @@ li>a {
 
 .menu-item {
     font-size: 1.8rem;
-    font-family: 'qanelas-medium';
+    font-family: 'qanelas-medium', sans-serif;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
