@@ -20,52 +20,52 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script type="text/javascript">
-        $(document).ready(function() {
-            $("#but1").hover(function() {
-                $(".pdesc").html("This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events");
-                $(".contact").show();
-            }, function() {
-                $(".pdesc").html("");
-                $(".contact").hide();
-            });
-        });
-        $(document).ready(function() {
-            $("#but2").hover(function() {
-                $(".pdesc").html("Adapting to the new normal has proven to be a challenge and gaming has emerged as a source of relief and entertainment. Gear up for the challenges that you’ll remember for a lifetime and step into any of the following virtual worlds to compete with the best of the best!");
-                $(".contact").show();
-            }, function() {
-                $(".pdesc").html("");
-                $(".contact").hide();
-            });
-        });
-        $(document).ready(function() {
-            $("#but3").hover(function() {
-                $(".pdesc").html("Participants might choose to register as a group for any of the following genre of events. Note that if a group has registered for a particular event, the group registration valid only for that particular event and category. If a member of the group wishes to participate in a different category of same event (eg. solo/duo), seperate charges would be applied.");
-                $(".contact").show();
-            }, function() {
-                $(".pdesc").html("");
-                $(".contact").hide();
-            });
-        });
-        $(document).ready(function() {
-            if ($(window).width() <= 1024)
-                $("#but1").click(function() {
-                    $(".resp_cont1").slideToggle();
-                });
-        });
-        $(document).ready(function() {
-            if ($(window).width() <= 1024)
-                $("#but2").click(function() {
-                    $(".resp_cont2").slideToggle();
-                });
-        });
-        $(document).ready(function() {
-            if ($(window).width() <= 1024)
-                $("#but3").click(function() {
-                    $(".resp_cont3").slideToggle();
-                });
+        // $(document).ready(function() {
+        //     $("#but1").hover(function() {
+        //         $(".pdesc").html("This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events");
+        //         $(".contact").show();
+        //     }, function() {
+        //         $(".pdesc").html("");
+        //         $(".contact").hide();
+        //     });
+        // });
+        // $(document).ready(function() {
+        //     $("#but2").hover(function() {
+        //         $(".pdesc").html("Adapting to the new normal has proven to be a challenge and gaming has emerged as a source of relief and entertainment. Gear up for the challenges that you’ll remember for a lifetime and step into any of the following virtual worlds to compete with the best of the best!");
+        //         $(".contact").show();
+        //     }, function() {
+        //         $(".pdesc").html("");
+        //         $(".contact").hide();
+        //     });
+        // });
+        // $(document).ready(function() {
+        //     $("#but3").hover(function() {
+        //         $(".pdesc").html("Participants might choose to register as a group for any of the following genre of events. Note that if a group has registered for a particular event, the group registration valid only for that particular event and category. If a member of the group wishes to participate in a different category of same event (eg. solo/duo), seperate charges would be applied.");
+        //         $(".contact").show();
+        //     }, function() {
+        //         $(".pdesc").html("");
+        //         $(".contact").hide();
+        //     });
+        // });
+        // $(document).ready(function() {
+        //     if ($(window).width() <= 1024)
+        //         $("#but1").click(function() {
+        //             $(".resp_cont1").slideToggle();
+        //         });
+        // });
+        // $(document).ready(function() {
+        //     if ($(window).width() <= 1024)
+        //         $("#but2").click(function() {
+        //             $(".resp_cont2").slideToggle();
+        //         });
+        // });
+        // $(document).ready(function() {
+        //     if ($(window).width() <= 1024)
+        //         $("#but3").click(function() {
+        //             $(".resp_cont3").slideToggle();
+        //         });
 
-        });
+        // });
     </script>
 </head>
 
@@ -133,22 +133,18 @@
                     </h1>
                     <div class="butcon">
                         <button class="but" id="but1">Synapse 100</button>
-                        <div class="resp_cont1 cont">This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events
-                            <div class="resp_contact">
-                                <br>Contact the undermentioned personal to register<br><br> Jimil Prajapati :<br> 9724128444 <br> Pushpang Singh Rathore:<br> 96360 76045
-                            </div>
-                        </div>
                         <button class="but" id="but2">Battledrome</button>
-                        <div class="resp_cont2 cont">This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events
-                            <div class="resp_contact">
-                                <br>Contact the undermentioned personal to register<br><br> Jimil Prajapati :<br> 9724128444 <br> Pushpang Singh Rathore:<br> 96360 76045
-                            </div>
-                        </div>
                         <button class="but" id="but3">Group Events</button>
-                        <div class="resp_cont3 cont">This pass can be purchased individually for a humble amount of Rs 100. The holder of this pass can participate in any or all​ of the following events
-                            <div class="resp_contact">
-                                <br>Contact the undermentioned personal to register<br><br> Jimil Prajapati :<br> 9724128444 <br> Pushpang Singh Rathore:<br> 96360 76045
-                            </div>
+                        <div class="contact_resp">
+                            <h1>Contact the undermentioned personnel to register</h1>
+                        <center>
+                            <div class="div1">
+                            Jimil Prajapati:<br>
+                            97241 28444<br>  
+                            Pushpang Singh Rathore:<br>
+                            96360 76045<br>
+                        </div>
+                        </center>
                         </div>
                     </div>
                 </div>
@@ -159,7 +155,17 @@
                             </p>
                         </div>
                         <div class="contact">
-                            Contact the undermentioned personal to register<br><br> Jimil Prajapati : 9724128444 <br> Pushpang Singh Rathore : 96360 76045
+                            <h1>Contact the undermentioned personnel to register</h1>
+                        <table>
+                            <tr>
+                                <td>Jimil Prajapati</td>
+                                <td> : 97241 28444</td>
+                            </tr>             
+                            <tr>
+                                <td>Pushpang Singh Rathore</td>
+                                <td> : 96360 76045</td>
+                            </tr>               
+                        </table>
                         </div>
                     </div>
                 </div>

@@ -85,6 +85,7 @@ h1 {
   height: 80%;
   position: relative;
 }
+
 .desc {
   width: 100%;
   height: auto;
@@ -101,17 +102,22 @@ h1 {
   color: white;
   /* display: none; */
 }
-.cont {
+.contact_resp {
   display: none;
 }
+.contact h1{
+  font-size: 4.5vh;
+}
 .contact {
-  color: #e041c5;
+  text-align: center;
+}
+.contact table
+{
+  font-size: 35px;
   text-align: left;
-  font-size: 2.5vh;
-  position: absolute;
-  bottom: 1vh;
-  left: 2vh;
-  display: none;
+  width: 50%;
+  padding: 1vh;
+  margin-left: 4vh;
 }
 @media only screen and (max-width: 1024px) {
   body {
@@ -152,11 +158,21 @@ h1 {
     font-size: 20px;
     margin-bottom: 4.5vh;
     width: 85%;
-    display: none;
   }
-  .resp_contact {
+  .contact_resp {
+    /* border: 1px solid red; */
+    font-size: 3vh;
+    width: 90%;
+    margin: auto;
     text-align: left;
-    color: #e041c5;
+    display: block;
+  }
+  .contact_resp div {
+    text-align: left;
+  }
+  .contact_resp h1
+  {
+    font-size: 3vh;
   }
 }
 /* @keyframes anime{
