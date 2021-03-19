@@ -112,21 +112,29 @@ body::-webkit-scrollbar {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 1.5rem;
+    margin-top: 1.5vh;
 }
 
 .mid>img {
     width: 18vw;
 }
 
+strong {
+    font-size: inherit;
+}
+
 .mid>h1 {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-family: "bebas";
-    font-size: 2rem;
+    font-size: 2.2vw;
     background: linear-gradient(180deg, #00FFFF 0%, #0198FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.mid>h1>sup {
+    font-size: 1vw;
 }
 
 .nav {
