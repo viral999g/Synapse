@@ -1,0 +1,211 @@
+:root{
+    --primary-color: #000;
+    --light-color: #fff;
+}
+
+@font-face{
+    font-family:"bebas";
+    src:url("../fonts/BebasNeue/OTF/BebasNeue-Bold.otf") format("woff");
+    font-weight: 400;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.sponsor-title h1{
+    font-family: "bebas";
+    background: linear-gradient(180deg, #F9EDED , #222121 );
+    font-size: 5vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.sponsor-main-box{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8em;
+    grid-auto-rows: auto;
+    margin-top: 6%;
+    margin-bottom: 200px;
+}
+.sponsor-main-box > div{
+    background: transparent;
+    margin-left:5%;
+    margin-right:5%; 
+    border: 3px solid #086CB0 ;
+}
+
+.sponsor-main-box >div >p{
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 2%;
+}
+
+.type-font{
+    font-size: 4vw;
+    background: linear-gradient(180deg, #EF9EA4,#671085 );
+    font-family: "bebas";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sponsor-large-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    flex-direction: row;
+    padding: 5%;
+    padding-top: 0%;
+    /*display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1em;
+    grid-auto-rows: 180px;
+    padding: 5%;
+    padding-top: 0%;
+    position:relative;*/
+}
+
+
+.sponsor-large-box > div{
+    background:#F9EDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 9em;
+    width: 9em;
+    padding: 0%;
+    margin: 1%;
+}
+#sponsor-box1 > .sponsor-large-box >div{
+    margin: 2%;
+}
+.sponsor-large-box > div > img{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    width:100%;
+    height: auto;
+    max-height: 90%;
+}
+ 
+
+
+.mobile-tabs{
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    display: none;
+}
+.mobile-tabs > div:not(:last-child){
+    border-right: 0px;
+}
+.mobile-tabs > div{
+    border: 3px solid #086CB0 ;
+    border-bottom: 0px;;
+    padding: 2%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-tabs > div:active{
+    background-color: #081CB0;
+}
+.mobile-tabs > div:hover{
+    background-color: #081CB0;
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+   /* .sponsor-large-box{
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 140px;
+    }*/
+    .sponsor-title h1{
+        font-size: 8vw;
+    }
+    .type-font{
+        font-size: 6vw;
+    }
+    .sponsor-large-box > div{
+        height: 8em;
+        width:8em;
+    }
+}
+
+@media(max-width: 550px){
+    /*.sponsor-large-box{
+        grid-auto-rows: 100px;
+    }*/
+    .sponsor-title h1{
+        font-size: 10vw;
+    }
+    .type-font{
+        font-size: 6vw;
+    }
+    .sponsor-large-box > div{
+        height: 7em;
+        width:7em;
+    }
+}
+
+@media(max-width:450px){
+    .sponsor-large-box > div{
+        height: 4em;
+        width:4em;
+    }
+    .sponsor-title h1{
+        font-size: 9vw;
+    }
+    .type-font{
+        font-size: 5vw;
+    }
+    /*.sponsor-large-box{
+        grid-auto-rows: 60px;
+    }*/
+    .sponsor-main-box >div>p{
+        display:none;
+    }
+    .sponsor-main-box{
+        grid-auto-rows: auto;
+        margin-top:0px;
+    }
+    .sponsor-main-box > div{
+        padding:2%;
+    }
+    
+    .sponsor-main-box > div .sponsor-large-box
+    {
+        transition: transform 500ms ease-in-out, opacity 700ms ease-in-out;
+        transform: translateX(-20%) scaleX(0.6);
+        height:0px;
+        opacity: 0;
+        z-index: -9;
+    }
+    .sponsor-main-box > div{
+        transform: scaleX(0);
+        grid-area: 1/1/1/1;
+    }
+    .sponsor-main-box > div.tabactive{
+        transform: scale(1);
+    }
+    .sponsor-main-box > div.tabactive .sponsor-large-box{
+        transform: translateX(0%) scaleX(1);
+        height:auto;
+        opacity: 1;
+        z-index: 1;
+    }
+    .mobile-tabs{
+        display: flex;
+    } 
+    .sponsor-main-box .sponsor-large-box:not(:first-child) > div{
+        height: 3em;
+        width:3em;
+    }
+}
